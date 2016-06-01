@@ -1,7 +1,7 @@
 from Algorithm import calcCircle
 from Algorithm import precision
 from random import randint
-def genD(d):
+def genD(n):
     dlist=[]
     for i in range(d):
         x=randint(-10**precision,10**precision)
