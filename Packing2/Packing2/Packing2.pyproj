@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5377f9d0-2830-4ab6-a835-ca618ff92240</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Algorithm.py</StartupFile>
+    <StartupFile>UnitTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
