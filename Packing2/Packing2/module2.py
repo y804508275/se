@@ -19,3 +19,4 @@ for i in range(100000000):
     b+=c[0]+c[1]+c[2]
 a=time.ctime()
 print(a)
+a=0
