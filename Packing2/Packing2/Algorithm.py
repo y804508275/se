@@ -2,7 +2,6 @@ from math import *
 precision=3
 def calcDis(x1,y1,x2,y2):
     dis=(x1-x2)*(x1-x2)+(y1-y2)*(y1-y2)
-    dis=round(sqrt(dis),precision)
     return dis
 def calcCircle(n,block):
     circle=[]
@@ -13,6 +12,7 @@ def calcCircle(n,block):
                 x=i/10**precision
                 y=j/10**precision
                 r=min(abs(-1-x),abs(1-x),abs(-1-y),abs(1-y))
+                r=r*r
                 for c in circle:
                     if x==-0.83 and y==-0.83:
                         a=0
@@ -23,7 +23,7 @@ def calcCircle(n,block):
                     maxr=r
                     xm=x
                     ym=y
-        circle.append([round(maxr,precision),xm,ym])
+        circle.append([round(sqrt(maxr),precision),xm,ym])
         n-=1
     return circle
     
